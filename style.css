@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     font-family: Roboto, sans-serif;
     margin: 0%;
 }
@@ -14,6 +17,11 @@ a, .text, .deck, .signup{
 }
 button, .signup{
     background-color: #3882F6;
+    border-radius: 5px;
+    color:#E5E7EB;
+    border-color: #E5E7EB;
+    border-width: 1px;
+    padding: 3px 20px;
 }
 .random{
     font-size: 36px;
@@ -25,4 +33,17 @@ button, .signup{
     font-size: 36px;
     color: #1F2937;
     font-weight: 300;
+}
+.footer{
+    color: #E5E7EB;
+
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.header.links{
+    display: flex;
+    
 }
