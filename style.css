@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+body{
+    font-family: Roboto, sans-serif;
+    margin: 0%;
+}
+a, .text, .deck, .signup{
+    font-size: 18px;
+    color: #E5E7EB;
+    text-decoration: none;
+}
+.hero, .footer{
+    background-color: #1F2937;
+}
+button, .signup{
+    background-color: #3882F6;
+}
+.random{
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+.quote{
+    background-color: #E5E7EB;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 300;
+}
