@@ -64,17 +64,33 @@ button, .signup{
 }
 .signup{
     display: flex;
-    gap: 50px;
+    gap: 20px;
     padding: 20px 50px;
+}
+.button2{
+    padding: 0px 0px 0px 0px;
 }
 .deck{
     display: flex;
     justify-content:space-between;
+    align-items: center;
+    
 
 }
-.card1, .card2, .card3, .card4{
-    width:200px;
+
+.img1,.img2,.img3,.img4{
+    border:1px solid #3882F6;
+    border-radius: 10px;
+    width:100px;
+    height: 100px;
+    
+}
+.preview{
+    width: 400px;
 }
 .text{
     display: flex;
+    gap: 50px;
+    justify-content: center;
+    padding: 100px 20px;
 }
